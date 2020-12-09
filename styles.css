@@ -1,0 +1,427 @@
+/* HTML ELEMENTS */
+
+body {
+    font-family: 'Overlock', sans-serif;
+    background-color: #162447;
+    color: #f6f1eb;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Mali', cursive;
+    color: #ffffff;
+    font-size: 4.75rem;
+}
+
+h2 {
+    font-family: 'Overlock', cursive;
+    color: #f6f1eb;
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-family: 'Overlock', cursive;
+    color: #1b1b2f;
+    font-size: 1.75rem;
+    font-weight: bold;
+}
+
+h4 {
+    font-family: 'Overlock', cursive;
+    color: #f6f1eb;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+}
+
+/* ID'S */
+
+/* CLASSES */
+
+.container-fluid {
+    padding: 1% 7.5% 5%;
+}
+
+.title-myname {
+    font-family: 'Mali', cursive;
+    color: #f6f1eb;
+    font-size: 2rem;
+}
+
+.title-item {
+    font-family: 'Overlock', cursive;
+    color: #e2dfdb;
+    font-size: 1.3rem;
+    
+}
+
+.nav-item {
+    padding: 0 22px;
+}
+
+.nav-resume {
+    border: solid #e43f5a;
+    background-color: #e43f5a;
+    color: #1b1b2f;
+    font-weight: bold;
+}
+
+.hi-im-matt {
+    padding: 70px 0 20px;
+}
+
+.hi-im-matt-subtitle {
+    padding: 0 0 50px 0;
+}
+
+.about-me {
+    margin: auto;
+    padding: 5px 0;
+    width: 200px;
+    background-color: #e43f5a;
+}
+
+.about-me-container {
+    width: 77.5%;
+}
+
+.about-me-text {
+    text-align: left;
+    font-size: 1.6rem;
+}
+
+.about-me-text-container {
+    margin: 60px 0 0 0;
+}
+
+.about-me-text-container-two {
+    margin: 0;
+}
+
+.about-me-paragraph {
+    margin-bottom: 30px;
+}
+
+.portrait-container {
+    margin: 60px 0 0 0;
+}
+
+.portrait-image {
+    border-radius: 50%;
+}
+
+.my-skills {
+    margin: auto;
+    padding: 5px 0;
+    width: 200px;
+    background-color: #e43f5a;
+}
+
+.my-skills-container {
+    margin: 60px 0 0 0;
+}
+
+.my-skills-container-long {
+    margin: 0;
+}
+
+.my-skills-card {
+    background-color: #1f4068;
+    margin-bottom: 40px;
+    border-radius: 2%;
+    min-height: 475px;
+    box-shadow: 8px 15px 25px #0d0c224d, 4px 8px 13px  #0a0a1f96;
+}
+
+.my-skills-card-long {
+    background-color: #1f4068;
+    margin-bottom: 40px;
+    border-radius: 2%;
+    min-height: 575px;
+    box-shadow: 8px 15px 25px #0d0c224d, 4px 8px 13px  #0a0a1f96;
+}
+
+.my-skills-card-icon-container {
+    padding: 15px 0 0 0;
+    font-size: 5rem;
+    color: #e43f5a;
+}
+
+.my-skills-card-title-container {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #f6f1eb;
+    padding: 0 4% 5px 4%;
+}
+
+.my-skills-card-list-container {
+    font-size: 1.5rem;
+    text-align: left;
+    color: #f6f1eb;
+    padding: 0 4% 15px 14%;
+}
+
+.my-projects {
+    margin: auto;
+    padding: 5px 0;
+    width: 200px;
+    background-color: #e43f5a;
+}
+
+.my-projects-container {
+    margin: 60px 0 0 0;
+}
+
+.my-projects-container-two {
+    margin: 0;
+}
+
+.my-projects-card {
+    background-color: #1f4068;
+    margin-bottom: 40px;
+    border-radius: 2%;
+    min-height: 875px;
+    box-shadow: 8px 15px 25px #0d0c224d, 4px 8px 13px  #0a0a1f96;
+}
+
+.my-projects-card-image {
+    padding: 4% 3% 0 3%;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.my-projects-card-image-container {
+    min-height: 350px;
+    position: relative;
+    object-fit: cover;
+    display: block;
+}
+
+.my-projects-card-title-container {
+    color: #f6f1eb;
+    margin-bottom: 20px;
+}
+
+.my-projects-card-frameworks {
+    margin: auto 2rem;
+}
+
+.my-projects-card-frameworks-container {
+    color: #f6f1eb9d;
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+}
+
+.my-projects-card-frameworks-container-short {
+    color: #f6f1eb9d;
+    font-size: 1.3rem;
+    margin: 35px 0 36px 0;
+}
+
+.my-projects-card-description-container {
+    padding: 0 4% 20px 4%;
+    font-size: 1.4rem;
+    text-align: left;
+}
+
+.my-projects-card-link-container {
+    padding: 0 4% 20px 4%;
+    position: absolute;
+    bottom: 40px;
+    left: 4%;
+    right: 4%;
+    text-align: center;
+}
+
+.affiliates-by-league-header {
+    font-weight: bold;
+    font-size: 3rem;
+
+}
+
+.affiliates-card-header {
+    text-align: left;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 12px;
+    font-size: 2rem;
+    border: solid #e2dfdb;
+    border-style: inset;
+    margin: 12px auto;
+}
+
+.league-name {
+    text-align: left;
+    font-family: 'Overlock', cursive;
+    color: #f6f1eb;
+    font-size: 2.1rem;
+    font-weight: bold;
+}
+
+.club-name {
+    text-align: left;
+    font-family: 'Overlock', cursive;
+    color: #f6f1eb;
+    font-size: 2.1rem;
+    font-weight: bold;
+}
+
+.btn-link {
+    width: 100%;
+}
+
+.btn-link:focus {
+    outline: none !important;
+    box-shadow: 0 0 0 0;
+ }
+
+.affiliate-table {
+    font-size: 1.3rem;
+    margin: 0 0 30px 0;
+    background-color: #1b1b2f;
+}
+
+.item {
+    padding: 7px 0 7px 0;
+    font-weight: bold;
+}
+
+.item-header {
+    padding: 7px 0 7px 0;
+    background-color: #1f4068;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.item-new {
+    padding: 7px 0 7px 0;
+    background-color: #e43f5a;
+    color: black;
+    font-weight: bold;
+}
+
+.club-ARI {
+    background-color: #4d0f0f;
+}
+
+.club-ATL {
+    background-color: #070238;
+}
+
+.club-BAL {
+    background-color: #db6a00;
+}
+
+.club-BOS {
+    background-color: #a80000;
+}
+
+.club-CHC {
+    background-color: #070e77;
+}
+
+.club-CHW {
+    background-color: #000000;
+}
+
+.club-CIN {
+    background-color: #d80000;
+}
+
+.club-CLE {
+    background-color: #06053a;
+}
+
+.club-COL {
+    background-color: #2b0342;
+}
+
+.club-DET {
+    background-color: #020241;
+}
+
+.club-HOU {
+    background-color: #95550b;
+}
+
+.club-KC {
+    background-color: #09189e;
+}
+
+.club-LAA {
+    background-color: #900606;
+}
+
+.club-LAD {
+    background-color: #03018f;
+}
+
+.club-MIA {
+    background-color: #085fa7;
+}
+
+.club-MIL {
+    background-color: #f1b900;
+}
+
+.club-MIN {
+    background-color: #05055d;
+}
+
+.club-NYM {
+    background-color: #c26700;
+}
+
+.club-NYY {
+    background-color: #04044b;
+}
+
+.club-OAK {
+    background-color: #014b01;
+}
+
+.club-PHI {
+    background-color: #be0000;
+}
+
+.club-PIT {
+    background-color: #ffd900;
+}
+
+.club-SD {
+    background-color: #492a0d;
+}
+
+.club-SF {
+    background-color: #db7c0f;
+}
+
+.club-SEA {
+    background-color: #004e4e;
+}
+
+.club-STL {
+    background-color: #b10000;
+}
+
+.club-TB {
+    background-color: #003a69;
+}
+
+.club-TEX {
+    background-color: #690a0a;
+}
+
+.club-TOR {
+    background-color: #000080;
+}
+
+.club-WSH {
+    background-color: #a01010;
+}
