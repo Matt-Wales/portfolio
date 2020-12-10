@@ -27,6 +27,20 @@
     }
 }
 
+@media (max-width: 1100px) {
+    .desktop-graph-2021 {
+        display: none !important;
+    }
+
+    .mobile-graph-2021 {
+        display: inline !important;
+    }
+
+    .mobile-graph-caption {
+        display: inline !important;
+    }
+}
+
 /* HTML ELEMENTS */
 
 body {
@@ -339,6 +353,34 @@ table {
     background-color: #e43f5a;
     color: black;
     font-weight: bold;
+}
+
+.desktop-graph-2021 {
+    margin-bottom: 0 auto;
+}
+
+.mobile-graph-2021 {
+    display: none;
+}
+
+.mobile-graph-caption {
+    display: none;
+    font-size: 0.75rem;
+}
+
+.mobile-graph-image-container {
+    max-width: 110px;
+    position: relative;
+    object-fit: cover;
+    display: block;
+}
+
+.mobile-graph-image {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    max-height: 100%;
+    object-fit: cover;
 }
 
 .club-ARI {
