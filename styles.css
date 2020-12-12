@@ -4,26 +4,47 @@
     .container-fluid {
         padding: 1% 3.5% 4% !important;
     }
+
     .my-projects-card-image-container {
         min-height: 80px !important;
         position: relative;
         object-fit: cover;
         display: block;
     }
+
     .league-name {
         font-size: 1.8rem !important;
     }
+
     .club-name {
         font-size: 1.8rem !important;
     }
+
     .affiliates-by-league-header {
         font-size: 2.4rem !important;
     }
+
     .affiliates-card-header {
         padding-top: 3px;
         padding-bottom: 3px;
         padding-left: 2%;
         padding-right: 2%;
+    }
+
+    .contact-me-icon {
+        font-size: 50px !important;
+        width: 70px !important;
+        height: 70px !important;
+    }
+
+    .frameworks-overflow {
+        height: 80px !important;
+    }
+}
+
+@media (max-width: 992px) {
+    .about-me-card-wide {
+        padding: 4% 12% !important;
     }
 }
 
@@ -53,19 +74,19 @@ body {
 h1 {
     font-family: 'Mali', cursive;
     color: #ffffff;
-    font-size: 4.75rem;
+    font-size: 4.1rem;
 }
 
 h2 {
     font-family: 'Overlock', cursive;
     color: #f6f1eb;
-    font-size: 2.5rem;
+    font-size: 2.2rem;
 }
 
 h3 {
     font-family: 'Overlock', cursive;
     color: #1b1b2f;
-    font-size: 1.75rem;
+    font-size: 2rem;
     font-weight: bold;
 }
 
@@ -98,7 +119,7 @@ table {
     font-family: 'Overlock', cursive;
     color: #e2dfdb;
     font-size: 1.3rem;
-    
+
 }
 
 .nav-item {
@@ -128,12 +149,31 @@ table {
 }
 
 .about-me-container {
-    width: 77.5%;
+    width: 87.5%;
+}
+
+.about-me-card {
+    background-color: #1f4068;
+    padding: 4% 12%;
+    margin-bottom: 40px;
+    border-radius: 0.6rem;
+    min-height: 60px;
+    box-shadow: 8px 15px 25px #0d0c224d, 4px 8px 13px #0a0a1f96;
+}
+
+.about-me-card-wide {
+    background-color: #1f4068;
+    padding: 2% 6%;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    border-radius: 0.6rem;
+    min-height: 30px;
+    box-shadow: 8px 15px 25px #0d0c224d, 4px 8px 13px #0a0a1f96;
 }
 
 .about-me-text {
     text-align: left;
-    font-size: 1.6rem;
+    font-size: 1.45rem;
 }
 
 .about-me-text-container {
@@ -154,6 +194,7 @@ table {
 
 .portrait-image {
     border-radius: 50%;
+    max-height: 200px;
 }
 
 .my-skills {
@@ -174,17 +215,17 @@ table {
 .my-skills-card {
     background-color: #1f4068;
     margin-bottom: 40px;
-    border-radius: 2%;
+    border-radius: 0.6rem;
     min-height: 475px;
-    box-shadow: 8px 15px 25px #0d0c224d, 4px 8px 13px  #0a0a1f96;
+    box-shadow: 8px 15px 25px #0d0c224d, 4px 8px 13px #0a0a1f96;
 }
 
 .my-skills-card-long {
     background-color: #1f4068;
     margin-bottom: 40px;
-    border-radius: 2%;
+    border-radius: 0.6rem;
     min-height: 575px;
-    box-shadow: 8px 15px 25px #0d0c224d, 4px 8px 13px  #0a0a1f96;
+    box-shadow: 8px 15px 25px #0d0c224d, 4px 8px 13px #0a0a1f96;
 }
 
 .my-skills-card-icon-container {
@@ -223,11 +264,13 @@ table {
 }
 
 .my-projects-card {
+    display: flex;
+    flex-direction: column;
     background-color: #1f4068;
     margin-bottom: 40px;
-    border-radius: 2%;
-    min-height: 875px;
-    box-shadow: 8px 15px 25px #0d0c224d, 4px 8px 13px  #0a0a1f96;
+    border-radius: 0.6rem;
+    height: 875px;
+    box-shadow: 8px 15px 25px #0d0c224d, 4px 8px 13px #0a0a1f96;
 }
 
 .my-projects-card-image {
@@ -240,47 +283,116 @@ table {
 }
 
 .my-projects-card-image-container {
-    min-height: 320px;
+    min-height: 200px;
     position: relative;
     object-fit: cover;
     display: block;
+    flex-shrink: 1;
 }
 
 .my-projects-card-title-container {
+    display: flex;
+    flex-wrap: wrap;
     color: #f6f1eb;
-    margin-top: 10px;
-    margin-bottom: 20px;
+    margin: 20px 0;
+    justify-content: center;
+    align-content: center;
+    height: 70px;
 }
 
 .my-projects-card-frameworks {
-    margin: auto 2rem;
+    margin: 0.5rem 2rem;
 }
 
 .my-projects-card-frameworks-container {
+    display: flex;
+    flex-wrap: wrap;
     color: #f6f1eb9d;
     font-size: 1.3rem;
-    margin-bottom: 20px;
-}
-
-.my-projects-card-frameworks-container-short {
-    color: #f6f1eb9d;
-    font-size: 1.3rem;
-    margin: 35px 0 36px 0;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 30px;
+    height: 50px;
 }
 
 .my-projects-card-description-container {
     padding: 0 4% 20px 4%;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     text-align: left;
+    min-height: 300px;
+    flex-grow: 1;
 }
 
 .my-projects-card-link-container {
-    padding: 0 4% 20px 4%;
-    position: absolute;
-    bottom: 40px;
-    left: 4%;
-    right: 4%;
+    padding: 0 1% 20px 1%;
     text-align: center;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.contact-me {
+    margin: auto auto 60px auto;
+    padding: 5px 0;
+    width: 200px;
+    background-color: #e43f5a;
+}
+
+.contact-me-container {
+    width: 70%;
+}
+
+.contact-me-buttons {
+    display: flex;
+    height: 200px;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.contact-me-icon {
+    padding: 10px;
+    font-size: 70px;
+    width: 90px;
+    height: 90px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa-envelope {
+    background: #c52929;
+    color: white;
+}
+
+.fa-envelope:hover {
+    color: #7775ff;
+    text-decoration: none !important;
+}
+
+.fa-linkedin {
+    background: #0d3d79;
+    color: white;
+}
+
+.fa-linkedin:hover {
+    color: #7775ff;
+    text-decoration: none !important;
+}
+
+.fa-github {
+    background: #030b1d;
+    color: white;
+}
+
+.fa-github:hover {
+    color: #4946ff;
+    text-decoration: none !important;
+}
+
+.footer-text {
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom: 20px;
 }
 
 .affiliates-by-league-header {
@@ -328,7 +440,7 @@ table {
 .btn-link:focus {
     outline: none !important;
     box-shadow: 0 0 0 0;
- }
+}
 
 .affiliate-table {
     font-size: 1.3rem;
