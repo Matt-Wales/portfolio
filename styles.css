@@ -40,6 +40,14 @@
     .frameworks-overflow {
         height: 80px !important;
     }
+
+    .my-projects-card-description-container {
+        font-size: 1.2rem !important;
+    }
+
+    .my-projects-card-description-container-short {
+        font-size: 1.2rem !important;
+    }
 }
 
 @media (max-width: 992px) {
@@ -224,7 +232,7 @@ table {
     background-color: #1f4068;
     margin-bottom: 40px;
     border-radius: 0.6rem;
-    min-height: 575px;
+    min-height: 530px;
     box-shadow: 8px 15px 25px #0d0c224d, 4px 8px 13px #0a0a1f96;
 }
 
@@ -245,7 +253,7 @@ table {
     font-size: 1.5rem;
     text-align: left;
     color: #f6f1eb;
-    padding: 0 4% 15px 14%;
+    padding: 0 4% 10px 14%;
 }
 
 .my-projects {
@@ -273,6 +281,16 @@ table {
     box-shadow: 8px 15px 25px #0d0c224d, 4px 8px 13px #0a0a1f96;
 }
 
+.my-projects-card-short {
+    display: flex;
+    flex-direction: column;
+    background-color: #1f4068;
+    margin-bottom: 40px;
+    border-radius: 0.6rem;
+    height: 725px;
+    box-shadow: 8px 15px 25px #0d0c224d, 4px 8px 13px #0a0a1f96;
+}
+
 .my-projects-card-image {
     padding: 4% 3% 0 3%;
     width: 100%;
@@ -288,6 +306,13 @@ table {
     object-fit: cover;
     display: block;
     flex-shrink: 1;
+}
+
+.my-projects-card-image-container-short {
+    min-height: 200px;
+    position: relative;
+    object-fit: cover;
+    display: block;
 }
 
 .my-projects-card-title-container {
@@ -320,6 +345,14 @@ table {
     font-size: 1.3rem;
     text-align: left;
     min-height: 300px;
+    flex-grow: 1;
+}
+
+.my-projects-card-description-container-short {
+    padding: 0 4% 20px 4%;
+    font-size: 1.3rem;
+    text-align: left;
+    min-height: 175px;
     flex-grow: 1;
 }
 
