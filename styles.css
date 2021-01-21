@@ -78,7 +78,7 @@
 
     .my-projects-card-frameworks-container {
         font-size: 1.25rem !important;
-        margin-bottom: 15px !important;
+        margin: 10px !important;
     }
 
     .frameworks-overflow {
@@ -86,8 +86,7 @@
     }
 
     .my-projects-card-title-container {
-        margin: 15px 0 5px !important;
-        height: 40px !important;
+        margin: 15px 0 0 0 !important;
     }
 
     .my-projects-card-description-container {
@@ -118,9 +117,7 @@
     }
 
     .my-projects-card-link-container {
-        padding: 0 1% 15px 1% !important;
-        height: 45px !important;
-        margin-bottom: 10px !important;
+        padding: 0 1% 10px 1% !important;
     }
 
     .btn-lg {
@@ -371,6 +368,7 @@ table {
 .my-projects-card {
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
     background-color: #1f4068;
     margin-bottom: 40px;
     border-radius: 0.6rem;
@@ -381,6 +379,7 @@ table {
 .my-projects-card-short {
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
     background-color: #1f4068;
     margin-bottom: 40px;
     border-radius: 0.6rem;
@@ -419,7 +418,6 @@ table {
     margin: 20px 0;
     justify-content: center;
     align-content: center;
-    height: 70px;
 }
 
 .my-projects-card-frameworks {
@@ -434,14 +432,12 @@ table {
     justify-content: center;
     align-content: center;
     margin-bottom: 30px;
-    height: 50px;
 }
 
 .my-projects-card-description-container {
     padding: 0 4% 20px 4%;
     font-size: 1.3rem;
     text-align: left;
-    min-height: 300px;
     flex-grow: 1;
 }
 
@@ -449,15 +445,12 @@ table {
     padding: 0 4% 20px 4%;
     font-size: 1.3rem;
     text-align: left;
-    min-height: 175px;
     flex-grow: 1;
 }
 
 .my-projects-card-link-container {
     padding: 0 1% 20px 1%;
     text-align: center;
-    height: 50px;
-    margin-bottom: 20px;
 }
 
 .contact-me {
