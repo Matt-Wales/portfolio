@@ -142,6 +142,20 @@
         font-size: 0.8rem !important;
         margin-bottom: 12px !important;
     }
+
+    .shorten {
+        display: flex !important;
+        flex-wrap: wrap !important;
+        color: #f6f1eb !important;
+        margin: 20px 0 !important;
+        justify-content: center !important;
+        align-content: center !important;
+        margin: 15px 0 0 0 !important;
+    }
+
+    .lengthen {
+        display: none !important;
+    }
 }
 
 @media (max-width: 992px) {
@@ -412,6 +426,19 @@ table {
 }
 
 .my-projects-card-title-container {
+    display: flex;
+    flex-wrap: wrap;
+    color: #f6f1eb;
+    margin: 20px 0;
+    justify-content: center;
+    align-content: center;
+}
+
+.shorten {
+    display: none;
+}
+
+.lengthen {
     display: flex;
     flex-wrap: wrap;
     color: #f6f1eb;
